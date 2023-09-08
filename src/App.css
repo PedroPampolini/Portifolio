@@ -229,7 +229,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
-
+nav .myName {
+  color: #FFFFFF;
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -425,7 +427,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 0.9rem;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;

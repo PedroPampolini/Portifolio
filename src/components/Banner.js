@@ -55,9 +55,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                <span className="tagline">Bem vindo(a) ao meu Portfolio</span>
                 <h1>{`Oi! Eu sou o Pedro`}<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Olá, meu nome é Pedro e sou estudante de Ciência da computação na PUC Minas. Fiz eletrônica no CEFET-MG durante os anos de 2017 e 2019. Tenho uma paixão muito grande na área de programação, principalmente quando envolve algoritmos ou inteligência artificial.</p>
+                  <p>Olá, meu nome é Pedro Pampolini Mendicino, sou estudante de Ciência da computação na PUC Minas. Estudei eletrônica no CEFET-MG entre os anos de 2017 e 2019. Tenho uma paixão muito grande em programação, principalmente quando envolve algoritmos ou inteligência artificial.</p>
                   <a href="#connect" className="connect-link">
                     <button onClick={() => console.log('connect')}>Entre em contato <ArrowRightCircle size={25} /></button>
                   </a>
